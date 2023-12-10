@@ -61,9 +61,12 @@
                                 <div class="col-md-6">
                                     <select id="inputState" class="form-select" name="cat">
                                         <option selected>Category</option>
-                                        <option>Car</option>
-                                        <option>Bus</option>
-                                        <option>Truck</option>
+                                       <?php 
+                                      // print_r($cats);
+                                            foreach($cats as $cat):
+                                       ?>
+                                        <option value="<?= $cat['id']; ?>"><?= $cat['category'] ?></option>
+                                        <?php endforeach;?>
                                     </select>
                                 </div>
                                 <div class="col-md-6">
@@ -76,7 +79,7 @@
                                     <input type="text" class="form-control" placeholder="SKU" name="sku" value="<?= set_value('sku') ?>">
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="file" class="form-control" placeholder="Add a photo" name="photo" value="<?= set_value('photo') ?>">
+                                    <input type="file" class="form-control" placeholder="Add a photo" name="photo" value="<? //set_value('photo') ?>">
                                 </div>
                                 
                                 <div class="text-center">
