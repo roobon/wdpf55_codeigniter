@@ -29,3 +29,7 @@ $routes->get('category/edit/(:num)', 'CategoryController::edit/$1', ['filter' =>
 $routes->post('category/update/(:num)', 'CategoryController::update/$1', ['filter' => 'authGuard']); // category update
 $routes->get('category/delete/(:num)', 'CategoryController::delete/$1', ['filter' => 'authGuard']); // category delete
 
+// Frontend
+
+$routes->get('productsall', 'frontend\ProductController::index');
+$routes->post('product/(:num)', 'frontend\ProductController::show/$1');

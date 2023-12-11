@@ -22,7 +22,7 @@ class Products1Migration extends Migration
             ],
             'product' => [
                 'type'       => 'VARCHAR',
-                'constraint' => '150',
+                'constraint' => 150,
             ],
             'price' => [
                 'type' => 'INT',
@@ -30,11 +30,11 @@ class Products1Migration extends Migration
             ],
             'sku' => [
                 'type' => 'VARCHAR',
-                'constraint' => '50',
+                'constraint' => 50,
             ],
             'model' => [
                 'type' => 'VARCHAR',
-                'constraint' => '50',
+                'constraint' => 50,
             ]
         ]);
         $this->forge->addKey('id', true);

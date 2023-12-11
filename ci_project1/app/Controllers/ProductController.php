@@ -11,7 +11,7 @@ class ProductController extends BaseController
 {
     private $products;
     private $category;
-    protected $helpers = ['form', 'url', 'file'];
+    //protected $helpers = ['form', 'url', 'file'];
     //protected $library = ['form_validation'];
     
     public function __construct(){
