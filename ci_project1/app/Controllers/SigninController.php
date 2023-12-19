@@ -30,10 +30,19 @@ class SigninController extends BaseController
                     $userData = [
                         "name" => $data['name'],
                         "email" => $data['email'],
+                        "user_role" =>  $data['role'],
                         'isLoggedIn' => TRUE
                     ];
                     $session->set($userData);
-                    return redirect()->to('/');
+                    if($data['role']=="Admin"){
+                         return redirect()->to('/');
+                    }
+                    if($data['role']=="Editor"){
+                        return redirect()->to('/editor');
+                   }
+
+                    
+                   
                 }   else {
                     $session->setFlashdata('msg', 'Your Password is incorrect');
                     return redirect()->to('/signin');
@@ -53,3 +62,17 @@ class SigninController extends BaseController
         return redirect()->to('signin');
     }
 }
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+

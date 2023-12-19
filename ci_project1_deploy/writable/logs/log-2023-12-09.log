@@ -1,0 +1,128 @@
+INFO - 2023-12-09 03:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 03:47:40 --> Undefined variable: session
+in APPPATH\Views\includes\topbar.php on line 172.
+ 1 APPPATH\Views\includes\topbar.php(172): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Views\\includes\\topbar.php', 172, [])
+ 2 SYSTEMPATH\View\View.php(228): include('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Views\\includes\\topbar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('includes/topbar', null, true)
+ 5 APPPATH\Views\dashboard.php(41): CodeIgniter\View\View->include('includes/topbar')
+ 6 SYSTEMPATH\View\View.php(228): include('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Views\\dashboard.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 9 APPPATH\Controllers\AdminHome.php(11): view('dashboard')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AdminHome->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+INFO - 2023-12-09 03:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 03:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 04:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-09 04:50:26 --> mysqli_sql_exception: Can't create table `wdpf55_ci_project1`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") in H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 H:\xampp743\htdocs\wdpf55_ci\ci_project1\app\Database\Migrations\2023-12-02-065604_Products1Migration.php(42): CodeIgniter\Database\Forge->createTable('products')
+#5 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MigrationRunner.php(873): App\Database\Migrations\Products1Migration->up()
+#6 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 H:\xampp743\htdocs\wdpf55_ci\ci_project1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 04:55:33 --> mysqli_sql_exception: Can't create table `wdpf55_ci_project1`.`products` (errno: 150 "Foreign key constraint is incorrectly formed") in H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 H:\xampp743\htdocs\wdpf55_ci\ci_project1\app\Database\Migrations\2023-12-02-065604_Products1Migration.php(42): CodeIgniter\Database\Forge->createTable('products')
+#5 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MigrationRunner.php(873): App\Database\Migrations\Products1Migration->up()
+#6 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 H:\xampp743\htdocs\wdpf55_ci\ci_project1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 H:\xampp743\htdocs\wdpf55_ci\ci_project1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-12-09 06:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-09 06:44:06 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(16): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-09 06:46:10 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(16): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-09 06:46:12 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(16): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-09 06:47:05 --> Undefined variable: title
+in APPPATH\Views\category\index.php on line 12.
+ 1 APPPATH\Views\category\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Views\\category\\index.php', 12, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Views\\category\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('category/index', [], true)
+ 5 APPPATH\Controllers\CategoryController.php(16): view('category/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+INFO - 2023-12-09 06:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 06:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 07:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 07:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 07:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 07:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 07:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 07:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-09 07:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

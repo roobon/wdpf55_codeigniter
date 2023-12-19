@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'AdminHome::index', ['filter' => 'authGuard']);
+$routes->get('/', 'AdminHome::index', ['filter' => 'noAuth']);
 $routes->get('products', 'ProductController::index' , ['filter' => 'authGuard']);
 $routes->get('products/create', 'ProductController::create', ['filter' => 'authGuard']);
 $routes->post('products/store', 'ProductController::store' , ['filter' => 'authGuard']);
@@ -33,3 +33,9 @@ $routes->get('category/delete/(:num)', 'CategoryController::delete/$1', ['filter
 
 $routes->get('productsall', 'frontend\ProductController::index');
 $routes->post('product/(:num)', 'frontend\ProductController::show/$1');
+$routes->get('registration', 'frontend\RegistrationController::registration');
+
+
+// Editor Routes
+$routes->get('editor', 'EditorController::index', ['filter' => 'noAuth']);
+$routes->get('editor/products', 'ProductController::index' , ['filter' => 'noAuth']);
