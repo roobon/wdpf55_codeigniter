@@ -1,0 +1,255 @@
+INFO - 2023-12-20 03:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-20 03:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-20 03:32:30 --> file_get_contents(php //input): failed to open stream: No such file or directory
+in APPPATH\Controllers\frontend\RegistrationController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(php //input): failed to open stream: No such file or directory', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 15, [])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(15): file_get_contents('php //input')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 03:36:02 --> file_get_contents(php //input): failed to open stream: No such file or directory
+in APPPATH\Controllers\frontend\RegistrationController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(php //input): failed to open stream: No such file or directory', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 15, [])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(15): file_get_contents('php //input')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 03:37:05 --> file_get_contents(php //input): failed to open stream: No such file or directory
+in APPPATH\Controllers\frontend\RegistrationController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(php //input): failed to open stream: No such file or directory', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 15, [])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(15): file_get_contents('php //input')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 03:40:14 --> file_get_contents(php//input): failed to open stream: No such file or directory
+in APPPATH\Controllers\frontend\RegistrationController.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(php//input): failed to open stream: No such file or directory', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 15, [])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(15): file_get_contents('php//input')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 05:22:56 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 22.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 05:34:30 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 21.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 05:34:51 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 21.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 05:35:44 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 21.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 05:36:27 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 21.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 05:37:01 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 21.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 05:37:33 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 21.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:02:01 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\frontend\RegistrationController.php(36): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:02:49 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 4 APPPATH\Controllers\frontend\RegistrationController.php(36): CodeIgniter\Model->insert([])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:03:59 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\frontend\RegistrationController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 20, [...])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(20): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:04:36 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\frontend\RegistrationController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 20, [...])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(20): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:04:55 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\frontend\RegistrationController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 20, [...])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(20): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:05:18 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH\Controllers\frontend\RegistrationController.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 20, [...])
+ 2 APPPATH\Controllers\frontend\RegistrationController.php(20): json_decode([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:09:04 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray([], 'insert')
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], true)
+ 4 APPPATH\Controllers\frontend\RegistrationController.php(36): CodeIgniter\Model->insert([])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:13:31 --> Undefined index: fname
+in APPPATH\Controllers\frontend\RegistrationController.php on line 23.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fname', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:14:53 --> Trying to get property 'fname' of non-object
+in APPPATH\Controllers\frontend\RegistrationController.php on line 23.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fname\' of non-object', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:16:55 --> Undefined index: fname
+in APPPATH\Controllers\frontend\RegistrationController.php on line 22.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fname', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 22, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:18:32 --> syntax error, unexpected '}'
+in APPPATH\Controllers\frontend\RegistrationController.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\frontend\\RegistrationController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\frontend\\RegistrationController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\frontend\\RegistrationController')
+ 5 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\frontend\\RegistrationController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:18:38 --> syntax error, unexpected '}'
+in APPPATH\Controllers\frontend\RegistrationController.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\frontend\\RegistrationController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\frontend\\RegistrationController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\frontend\\RegistrationController')
+ 5 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\frontend\\RegistrationController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:19:38 --> Undefined index: fname
+in APPPATH\Controllers\frontend\RegistrationController.php on line 23.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fname', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:20:14 --> Undefined index: fname
+in APPPATH\Controllers\frontend\RegistrationController.php on line 23.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fname', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:21:39 --> Undefined index: fname
+in APPPATH\Controllers\frontend\RegistrationController.php on line 23.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fname', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:23:27 --> Undefined index: fname
+in APPPATH\Controllers\frontend\RegistrationController.php on line 23.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fname', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
+CRITICAL - 2023-12-20 06:25:24 --> Undefined index: fname
+in APPPATH\Controllers\frontend\RegistrationController.php on line 23.
+ 1 APPPATH\Controllers\frontend\RegistrationController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: fname', 'H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\app\\Controllers\\frontend\\RegistrationController.php', 23, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\RegistrationController->registration()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\RegistrationController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\xampp743\\htdocs\\wdpf55_ci\\ci_project1\\public\\index.php')
